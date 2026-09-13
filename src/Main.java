@@ -1,8 +1,11 @@
-import Service.GameRentalSystem;
+import service.GameRentalSystem;
 
 public class Main {
-    static void main(String[] args) {
-        GameRentalSystem grs = new GameRentalSystem();
-        grs.start();
+
+    public static void main(String[] args) {
+
+        GameRentalSystem a = new GameRentalSystem();
+
+        a.start();
     }
 }
