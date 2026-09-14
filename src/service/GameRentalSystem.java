@@ -54,10 +54,13 @@ public class GameRentalSystem {
                     break;
 
                 case 4:
+                    showCustomers();
+                    showGames();
                     rentGame();
                     break;
 
                 case 5:
+                    showRentalHistory();
                     returnGame();
                     break;
 
